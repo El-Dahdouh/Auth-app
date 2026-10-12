@@ -29,8 +29,8 @@ A RESTful authentication API built with **Node.js, Express.js, and MongoDB**. It
 1. Clone the repository:
 
    ```bash
-   git clone <your-repository-url>
-   cd Auth
+   git clone <https://github.com/El-Dahdouh/Auth-app.git>
+   cd Auth-app
    ```
 
 2. Install dependencies:
@@ -61,7 +61,7 @@ A RESTful authentication API built with **Node.js, Express.js, and MongoDB**. It
 | POST   | `/auth/register` | Register a new user            |
 | POST   | `/auth/login`    | Authenticate a user            |
 | GET    | `/auth/refresh`  | Generate a new access token    |
-| GET    | `/auth/logout`   | Clear the refresh token cookie |
+| POST    | `/auth/logout`   | Clear the refresh token cookie |
 | GET    | `/users`         | Access protected user data     |
 
 *Adjust the endpoint paths and HTTP methods to match your route configuration.*
